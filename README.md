@@ -8,10 +8,15 @@ Group 15
 The submitted zip has the following structure:
 
 -- project_group15
+
 ------ model (folder)
+
 ------ fig (folder)
+
 ------ results (folder)
+
 ------ data (folder)
+
 ------ some notebooks (including our report.ipynb, and each implemented model is in one notebook)
 
 model (folder): includes pre-trained model of MLP, CNN, CNN with contrastive loss, Inception. Notice that if you want to use ResNet and VGG16 pretrained model, please download them from the link we provided in the beginning of report.ipynb.
