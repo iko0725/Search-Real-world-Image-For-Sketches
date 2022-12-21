@@ -29,3 +29,9 @@ IMPORTANT NOTICE:
 
 Proprocessed Dataset (npz files): https://drive.google.com/drive/folders/1mBAQHd7LpmIkIQUAmsPUjsbVWdUhq991?usp=sharing \
 Pretrianed Model: https://drive.google.com/drive/folders/1qVvAIaXa6U-0eh0fJ_9kNX9IGAFfC7S6?usp=share_link
+
+
+Here is the demo of our sketch-based image search engine:
+
+
+![demo](./fig/demo.png)
