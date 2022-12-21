@@ -3,9 +3,7 @@
 
 CS5242 Project: Search Real-world Fruit Images based on user-input Sketch
 
-Group 15
-
-The submitted zip has the following structure:
+The folder has the following structure:
 
 -- project_group15
 
