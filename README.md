@@ -33,7 +33,7 @@ Here is the demo of our sketch-based image search engine:
 ![demo](./fig/demo.png)
 
 
-We propose to use Neural Network to extract features in images and compute cosine similarities for image features. In this project, two models ($M_{realworld}$) and ($M_{sketch}$) are trained to find good representations for real-world image and sketch image. For($M_{realworld}$) and ($M_{sketch}$), we tried MLP, ResNet, VGG, Inception and CNN to solve the problem. We analyze these model performance in the following sections. 
+We propose to use Neural Network to extract features in images and compute cosine similarities for image features. In this project, two models  $M_{realworld}$ and $M_{sketch}$ are trained to find good representations for real-world image and sketch image. For $M_{realworld}$ and $M_{sketch}$ , we tried MLP, ResNet, VGG, Inception and CNN to solve the problem. We analyze these model performance in the following sections. 
 
 
 ![demo](./fig/methodology.png)
@@ -46,10 +46,8 @@ we improve CNN performance by introducing contrastive loss. The model structure 
 
 The goal of contrastive loss is to discriminate the features of the input vectors. We will pull together the features from the same class, and push away the features from the different class. The formula of  Contrastive Loss is: . 
 
-$
-\text { loss }=-\log \frac{\sum_{\text {label }_i=\text { label }_j} \exp \left(\operatorname{sim}\left(f_i, f_j\right) / \tau\right)}{\sum_k \exp \left(\operatorname{sim}\left(f_i, f_k\right) / \tau\right)}
+$\text { loss }=-\log \frac{\sum_{\text {label}_{i} = \text { label }_j} \exp \left(\operatorname{sim}\left(f_i, f_j\right) / \tau\right)}{\sum_k \exp \left(\operatorname{sim}\left(f_i, f_k\right) / \tau\right)}$
 
-$
 where $f$ represents image features and $\tau$ represents temperature in Contrastive loss formula.
 
 We add three CL losses in CNN, shown in above figure with orange, blue and grean color. We use $M$ represents Model and $x$ represents input images.
