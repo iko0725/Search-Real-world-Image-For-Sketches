@@ -26,5 +26,7 @@ fig (folder): figures we need in our report.
 data (folder): preprocessed dataset (should include 4 npz files, we provide download link for it). 
 
 IMPORTANT NOTICE:
+
 Proprocessed Dataset (npz files): https://drive.google.com/drive/folders/1mBAQHd7LpmIkIQUAmsPUjsbVWdUhq991?usp=sharing
+
 Pretrianed Model: https://drive.google.com/drive/folders/1qVvAIaXa6U-0eh0fJ_9kNX9IGAFfC7S6?usp=share_link
