@@ -1,8 +1,5 @@
 # Search Real-world Fruit Images based on user-input Sketch
 
-
-CS5242 Project: Search Real-world Fruit Images based on user-input Sketch
-
 The folder has the following structure:
 
 -- Project \
